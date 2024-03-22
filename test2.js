@@ -6,3 +6,4 @@ test;
 function next(){
 
 }
+node.find().many().next()
