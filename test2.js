@@ -7,3 +7,4 @@ function next(){
 
 }
 node.find().many().next()
+node.find().many().next()
