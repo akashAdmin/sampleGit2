@@ -4,6 +4,7 @@ const handleDelete = (userid: string) => {
   setUsers(updatedUsers);
   localStorage.setItem("userList", JSON.stringify({ results: updatedUsers }));
 };
+
 const handleAdd = (userid: string) => {
   const userUpdate = users.map((user) => {
     user.login.uuid !== user;
