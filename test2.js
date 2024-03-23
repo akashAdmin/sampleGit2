@@ -1,4 +1,6 @@
-function App() {
-  const test1 = test.js;
-}
-test;
+const handleDelete = (userid: string) => {
+  const updatedUsers = users.filter((user) => user.login.uuid !== userid);
+  setTotalUsers(updatedUsers.length);
+  setUsers(updatedUsers);
+  localStorage.setItem("userList", JSON.stringify({ results: updatedUsers }));
+};
