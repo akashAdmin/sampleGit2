@@ -1,12 +1,10 @@
-const handleDelete = (userid: string) => {
-  const updatedUsers = users.filter((user) => user.login.uuid !== userid);
-  setTotalUsers(updatedUsers.length);
-  setUsers(updatedUsers);
-  localStorage.setItem("userList", JSON.stringify({ results: updatedUsers }));
-};
-const handleDelete = (userid: string) => {
-  const updatedUsers = users.filter((user) => user.login.uuid !== userid);
-  setTotalUsers(updatedUsers.length);
-  setUsers(updatedUsers);
-  localStorage.setItem("userList", JSON.stringify({ results: updatedUsers }));
-};
+import react from react;
+function App() {
+  const test1 = test.js;
+}
+test;
+function next(){
+
+}
+node.find().many().next()
+node.find().many().next()
